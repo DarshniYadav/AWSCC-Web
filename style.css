@@ -1,0 +1,138 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2d033b;
+  color: white;
+}
+
+.team-section {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #6a0572;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.member-info {
+  text-align: left;
+}
+
+.member-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.member-info h3 {
+  margin: 5px 0 10px 0;
+  font-size: 18px;
+  color: #f39c12;
+}
+
+.member-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #ecf0f1;
+}*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(145deg, rgba(128, 0, 128, 0.2), rgba(255, 255, 255, 0.1));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.team-member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.team-member.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-placeholder {
+  width: 150px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  flex: 1;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.description h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.description p {
+  font-size: 1rem;
+}
+
+.team-member.reverse .description {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
